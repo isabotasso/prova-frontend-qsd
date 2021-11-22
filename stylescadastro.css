@@ -45,12 +45,7 @@ body{
     color: white;
 }
 
-/* .icons{
-    display: flex;
-    text-align: center;
-    justify-content: space-around;
 
-} */
 
 .login{
     text-align: center;
@@ -132,8 +127,3 @@ h2{
     }
 }
 
-/* @media  (min-width:1030px){
-    .cadastro, .ou{
-        display: none;
-    }
-} */
