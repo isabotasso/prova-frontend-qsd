@@ -35,7 +35,7 @@ body{
 .container .direito{
     position: relative;
     background: rgb(255, 255, 255);
-    padding: 170px;
+    padding: 70px;
     
 }
 
@@ -62,8 +62,20 @@ body{
 input{
     background-color: rgba(216, 216, 216, 0.349);
     border: none;
+    margin: 2px;
 }
 
+.cadastro-botao{
+    color: white;
+    background-color: rgb(255, 72, 0);
+    border-radius: 20px;
+    width: 150px;
+    border: none;
+    padding-right: 10px;
+    position: relative;
+   left: 15px;
+   height: 30px;
+}
 
 .direito{
     width: 500px;
@@ -85,6 +97,9 @@ p{
     font-size: 10px;
 }
 
+.form-cadastro{
+    width: 200px;
+}
 
 .login-botao{
     color: white;
@@ -112,13 +127,13 @@ h2{
 
 
 @media  (max-width:1030px){
-    .direito{
+    .esquerdo{
         display: none;
     }
 }
 
-@media  (min-width:1030px){
+/* @media  (min-width:1030px){
     .cadastro, .ou{
         display: none;
     }
-}
+} */
