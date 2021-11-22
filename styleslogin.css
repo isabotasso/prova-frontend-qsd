@@ -39,9 +39,10 @@ body{
     
 }
 
-p{
+.p-esquerdo, .senha, .ou{
     text-align: center;
     font-size: 10px;
+    color: black;
 }
 
 .icons{
@@ -74,3 +75,60 @@ input{
    height: 30px;
 }
 
+.cadastro{
+    color: white;
+    background-color: rgb(212, 55, 102);
+    border-radius: 20px;
+    width: 150px;
+    border: none;
+    padding-right: 10px;
+    position: relative;
+   left: 15px;
+   height: 30px;
+}
+
+.direito ,h2, p{
+    color: white
+}
+
+p{
+    font-size: 10px;
+}
+
+
+.cadastro-botao{
+    color: white;
+    background-color: rgb(212, 55, 102);
+    border-radius: 20px;
+    width: 140px;
+    border-color: white;
+    padding-right: 10px;
+    position: relative;
+   left: 15px;
+   height: 30px;
+}
+
+.direito{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+
+h2{
+    font-size: 30px;
+    font-weight: bolder;
+}
+
+
+@media  (max-width:1030px){
+    .direito{
+        display: none;
+    }
+}
+
+@media  (min-width:1030px){
+    .cadastro, .ou{
+        display: none;
+    }
+}
